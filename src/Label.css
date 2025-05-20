@@ -1,0 +1,35 @@
+#root {
+  --important-color: blue;
+  --important-bg-color: black;
+  --warning-color: red;
+  --warning-bg-color: rgb(43, 39, 39);
+  --info-color: rgb(0, 217, 255);
+  --info-bg-color: rgb(56, 52, 52);
+  --success-color: white;
+  --success-bg-color: lime;
+}
+
+.label-important {
+    color: var(--important-color);
+    background-color: var(--important-bg-color);
+}
+
+.label-warning {
+    color: var(--warning-color);
+    background-color: var(--warning-bg-color);
+}
+
+.label-info {
+    color: var(--info-color);
+    background-color: var(--info-bg-color);
+}
+
+.label-success {
+    color: var(--success-color);
+    background-color: var(--success-bg-color);
+}
+
+.label-error {
+    color: var(--error-color);
+    background-color: var(--error-bg-color);
+}

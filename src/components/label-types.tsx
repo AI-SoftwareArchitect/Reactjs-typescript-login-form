@@ -1,0 +1,1 @@
+export type LabelTypes = "Important" | "Warning" | "Info" | "Success" | "Error";
